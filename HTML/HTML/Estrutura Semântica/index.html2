@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document </title>
+</head>
+<body>
+<!--cabeçario da página-->
+<header>
+<h1>tech store</h1>
+<nav><!--navegação-->
+<a href="index.html">inicio</a>
+<a href="produtos.html">produtos</a>
+</nav>
+</header>
+<!--conteúdo principal -->
+<main>
+<!--post de notebook-->
+<article>
+<h2>Notebook</h2>
+<P>r$ 3000,00 caro pra porra</P>
+<P>alto desempenho e design moderno</P>
+</article>
+</main>
+
+
+<!--rodapé-->
+<footer>
+<p>&copy; 2026 tecs store</p>
+</footer>
+</body>
+</html>
