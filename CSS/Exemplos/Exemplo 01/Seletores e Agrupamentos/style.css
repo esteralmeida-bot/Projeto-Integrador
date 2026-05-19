@@ -1,0 +1,20 @@
+/* Seletor Universal */
+/* Seletor e Agrupamento */
+/* {Seletor Tipo} */
+
+* {
+    color:deeppink;
+}
+
+h1 {
+    color:black;
+}
+
+/* Seletor tipo: seleciona todas as tags
+.alerta {Seletor classe: seleciona  todos os 
+
+<a class="alerta"/href="#">atenção</a>*/
+/* #PRINCIPAL {seletor id: seleciona o elemento com id= "principal" */
+.alerta {
+    color:chocolate;
+}
