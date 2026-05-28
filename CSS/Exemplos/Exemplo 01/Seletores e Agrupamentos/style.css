@@ -17,4 +17,40 @@ h1 {
 /* #PRINCIPAL {seletor id: seleciona o elemento com id= "principal" */
 .alerta {
     color:chocolate;
+} 
+
+/*  */
+/* Corrigido e feito pelo prof: */
+
+/* Seletores e Agrupamento */
+
+ /* 
+
+*{ Seletor Universal: Aplica a todos os elementos}
+
+p {Seletor Tipo: Seleciona todas as tags <p>}
+
+.alerta {Seletor Classe: Seleciona todos os class="alerta"}
+
+#principal {Seletor ID: Seleciona o elemento com id="principal"}
+
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: black;
+}
+
+.alerta {
+    color: rgb(0, 154, 39);
+}
+
+#principal {
+    background-color: aquamarine;
+    color: #FFF;
 }
