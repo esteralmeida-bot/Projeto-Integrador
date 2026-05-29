@@ -1,0 +1,27 @@
+/* FONTES E TIPOGRAFIAS */
+
+/* Propriedades basicas */
+/* Font-Family: Define a familia da fonte;*/
+/*Font Size: é o tamanho do texto.*/
+/*color: é a cor.*/
+/*line-height: altura da linha /espaçamento */
+/* text aling: é o posicionamento do texto */
+
+body {
+    background: linear-gradient(to right, #F8CDE3,#ff9fd1, #FF69B4);
+    font-family: "Playwrite GB J", cursive;
+    font-size: 16px;
+    color:#000;
+    line-height: 1.5;
+    font-weight: bold;
+    text-align: left;
+}
+/* Importando fontes do google fonts*/
+.titulo {
+  font-family: "Playwrite GB J", cursive;
+}
+
+/* Decoração e Transformação*/
+/* text-transform: Vai alterar o texto para maiúsculo (uppercase) ou minusculo (lowercase) */
+/* letter-spacing: espaçamento horizontal entre as palavras */
+/* Text-shadow: efeito de sombra no texto */

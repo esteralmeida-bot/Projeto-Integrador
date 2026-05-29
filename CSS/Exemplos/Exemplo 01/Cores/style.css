@@ -10,5 +10,26 @@ color: #FF0000; [tipo hexadecimal (A - F e 0 - 9)]
     color:red;
  }
 
+ .hexadecimal {
+   color:#ff69b4
+ }
+/* cor normal */
+ .rgb {
+   color: rgb(red, green, blue);
+ }
+/* trasparente */
+ .rgba-transparente {
+   color: rgba(240, 141, 80, 0.336)
+ }
 
-    
+ .hsl {
+   color:hotpink
+ }
+
+/* cores de fundo */
+#cor-de-fundo {
+   background: linear-gradient(to right, #F8CDE3, #FF69B4);
+}
+
+/* linear gradiente cria degrades horizontais, verticais ou diagonais */
+/* cor de fundo com trasparencia */
