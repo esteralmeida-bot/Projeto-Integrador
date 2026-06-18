@@ -98,3 +98,36 @@ class Livro:
         print("Título: O Fantasma da Ópera")
         print("Sequência: Não contém")
         print("Sinopse: Prestes a morrer, o pai da jovem Christine Daaé...")
+
+
+# ==============================================================================
+# CRIAÇÃO DOS OBJETOS (PARTE CORRIGIDA)
+# Os objetos de testes agora estão fora de qualquer função, alinhados à esquerda.
+# ==============================================================================
+
+# 1. Instanciando (criando) um funcionário a partir da classe Bibliotecario
+bibliotecario_1 = Bibliotecario(1, "Ester", "ester.almeida@email.com", "hash_senha_123")
+
+# 2. Instanciando um leitor do sistema a partir da classe Cliente
+cliente_1 = Cliente(101, "Davi Felix", "davi.felix@email.com", "hash_senha_456", "123.456.789-00", "15/05/1995")
+
+# 3. Instanciando o criador da obra a partir da classe Autores
+autor_1 = Autores(50, "Gaston Leroux", "Romance Gótico/Mistério", "gaston@email.com", "hash_autor_789", "06/05/1868", 15)
+
+# 4. Instanciando uma classificação literária a partir da classe Genero
+genero_1 = Genero(5, "Romance de Mistério", "14 anos", "Ficção")
+
+# 5. Instanciando a obra principal, injetando os 4 objetos criados acima dentro dos relacionamentos dela
+livro_1 = Livro(
+    id_livro=1001, 
+    titulo="O Fantasma da Ópera", 
+    sinopse="Prestes a morrer, o pai da jovem Christine Daaé promete que um anjo da música a protegerá.", 
+    sequencia="Volume Único", 
+    genero=genero_1,               # Passa o objeto 'genero_1' para preencher self.genero
+    autores=autor_1,               # Passa o objeto 'autor_1' para preencher self.autores
+    bibliotecario=bibliotecario_1, # Passa o objeto 'bibliotecario_1' para preencher self.bibliotecario
+    cliente=cliente_1              # Passa o objeto 'cliente_1' para preencher self.cliente
+)
+
+# 6. Chamando o método para ver a mágica da Orientação a Objetos acontecer no terminal
+livro_1.exibir_detalhes_livro()
